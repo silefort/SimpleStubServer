@@ -1,7 +1,6 @@
 import flask
 import time
 import multiprocessing
-import logging
 
 class YesServer:
     def __init__(self, debug=False, port=5000):
