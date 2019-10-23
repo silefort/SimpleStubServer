@@ -1,10 +1,10 @@
 from flask import Flask
-import yesserver
+import stubserver
 import requests
 
 if __name__ == "__main__":
 
-    app = yesserver.YesServer()
+    app = stubserver.StubServer()
     app.start()
 
     r = requests.get('http://localhost:5000/check')

@@ -2,7 +2,7 @@ import flask
 import time
 import multiprocessing
 
-class YesServer:
+class StubServer:
     def __init__(self, debug=False, port=5000):
         self.server = None
         self.port = port;
